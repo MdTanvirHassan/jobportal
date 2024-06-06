@@ -33,6 +33,13 @@
         border-radius: 10px;
         box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
     }
+    .divisions{
+        background-color: #508dd8;
+        color: #fff; 
+    }
+    .divisions:hover{
+        background-color: #2a5992;
+    }
 </style>
 @if ((bool) $siteSetting->is_slider_active)
     <!-- Revolution slider start -->
@@ -73,7 +80,7 @@
 
      
 
-        <div class="container">
+        <div class="container ">
 
             <div class="row">
                 <div class="col-lg-8">
@@ -124,7 +131,16 @@
                     </div>
 
                     @include('includes.search_form')
+<div class="d-flex mt-2">
+    <div class="divisions text-white p-1 rounded mx-2">Dhaka (3241)</div>
+    <div class="divisions text-white p-1 rounded mx-2">Khulna (561)</div>
+    <div class="divisions text-white p-1 rounded mx-2">Barisal (161)</div>
+    <div class="divisions text-white p-1 rounded mx-2">Chattagram (111)</div>
+    <div class="divisions text-white p-1 rounded mx-2">Rajshahi (96)</div>
+    <div class="divisions text-white p-1 rounded mx-2">Rangpur (75)</div>
+    <div class="divisions text-white p-1 rounded mx-2">Mymensingh (51)</div>
 
+</div>
 
                    
 
