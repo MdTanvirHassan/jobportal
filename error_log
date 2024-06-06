@@ -1,0 +1,7 @@
+[07-May-2024 10:46:16 UTC] PHP Fatal error:  Uncaught ErrorException: Undefined variable: siteSetting in /home/axiz/jobportal.4axiz.com/storage/framework/views/83bfdf6f1382b4e477f8e6b843ea17a8ddd2a47a.php:4
+Stack trace:
+#0 /home/axiz/jobportal.4axiz.com/storage/framework/views/83bfdf6f1382b4e477f8e6b843ea17a8ddd2a47a.php(4): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Undefined varia...', '/home/axiz/jobp...', 4, Array)
+#1 /home/axiz/jobportal.4axiz.com/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(107): require('/home/axiz/jobp...')
+#2 /home/axiz/jobportal.4axiz.com/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(108): Illuminate\Filesystem\Filesystem::Illuminate\Filesystem\{closure}()
+#3 /home/axiz/jobportal.4axiz.com/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(58): Illuminate\Filesystem\Filesystem->getRequire('/home/axiz/jobp...', Array)
+#4 /home/axiz/jobportal.4axiz.com/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(61): Illuminate\View\Engine in /home/axiz/jobportal.4axiz.com/resources/views/includes/header.blade.php on line 4
